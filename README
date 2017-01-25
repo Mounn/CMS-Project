@@ -1,0 +1,26 @@
+==========================================
+How to Install Amarok CMS                                =
+==========================================
+
+Step 1
+
+Unzip and upload all files and folders into your website using an ftp client like filezilla
+Step 2
+
+If you are installing it in a directory instead of root (ie yoursite.com/cms)
+then open up the .htaccess file FIND:
+RewriteBase /
+
+and replace with:
+RewriteBase /cms
+Step 3
+
+Create a mysql database , username and password
+give create , drop tables permision to the user
+Step 4
+
+navigate to yoursite.com/install and follow the screen
+
+That is it..
+
+If you have any problem please let me know and I will be very happy to help

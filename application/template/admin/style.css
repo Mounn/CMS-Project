@@ -1,0 +1,329 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+	
+body {
+	background: #E9EDED;
+	font-family: verdana;
+	color: #777;
+	}	
+	
+input, select , textarea {
+	background: url("images/fieldbg.png") no-repeat scroll left top #FFFFFF;
+	font-family: verdana;
+	color: #444;
+	border: 1px solid #ccc;
+	width:95%;
+	padding: 10px;
+	margin:4px 0 10px 0;
+	-webkit-border-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius: 3px;
+-moz-border-radius-bottomleft:3px;
+border-radius: 3px;
+border-bottom-left-radius: 3px;
+	
+	}
+
+.mini {width: 40px;}	
+	
+.preview {border: 5px solid #E9EDED;}	
+#grid{ border:0; float:left; width:820px; margin-bottom:20px;}
+#grid  li {  border:none; width:200px; float:left; list-style:none;}
+#grid li p {float:left; width:200px;  }
+#grid li p input {width:15px; padding: 0; margin:0;}
+#grid  img {margin-bottom:5px; margin-top: 15px;}
+
+.info {padding: 20px;}
+.info strong {color: green;}
+#top #logo { 
+	background: transparent url(images/amaroks.png) no-repeat top left;
+   display: block;
+    height: 34px;
+    margin-left: 35px;
+	margin-bottom: 20px;
+    text-indent: -999px;
+    margin-top: 15px;
+    width: 44px;
+	}
+
+.shortselect {width: 100px; text-align:center;}	
+	
+textarea {
+	width: 600px;
+	height:200px;
+	}	
+	
+	.short {height: 60px;}
+	
+body , html {height:100%;}	
+html{height:145%;}
+#loginbox {
+	background: #1C2222;
+	width: 360px;
+	margin: 20px auto;
+	padding: 30px;
+	
+	  -moz-box-shadow: 15px 15px 15px #ccc;
+  -webkit-box-shadow: 15px 15px 15px #ccc;
+  box-shadow: 15px 15px 15px #ccc;
+  
+  	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+
+	
+	}
+	
+.errors {
+	
+	margin: 0;
+	padding: 10px 0 ;
+	color: red;
+	font-size: 12px;
+	
+	}
+	
+#login .errors {
+	
+	width: 420px;
+	margin: 20px auto;
+	padding: 20px 0 ;
+
+	font-size: 12px;
+	
+	}
+	
+	
+.errors p{
+	line-height: 35px;
+	background: pink url('images/stop.png') no-repeat 5px center;
+	padding-left:35px;
+	border: 1px solid ;
+	margin-top: 10px;
+	color: red;
+	font-size: 12px;
+	
+	}
+	
+.success {
+	color: green;
+	padding: 10px 0;
+	font-size: 12px;
+	
+	}	
+
+#loginbox input {
+	
+	background: #E9EDED;
+	font-size:1.7em;
+	font-family: verdana;
+	color: #0D0F0F;
+	border: 1px solid #0D0F0F;
+	width:300px;font-weight: bold;
+	padding: 10px;
+	margin-bottom:10px;
+	
+	}	
+	
+#loginbox .buttons, .buttons {
+	
+	background: #5B6F6F url('images/button.png') repeat-x bottom left;
+	color: #E9EDED;
+	width: 120px;
+	font-size: 12px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px 10px;
+	border: none;
+	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+	
+	}
+	
+	
+#header
+{
+	background:#ccc;
+	padding: 20px;
+	
+}
+
+#header h1 { margin: 0; }
+
+#top {
+	
+	background: #5B6F6F;
+	height:100%;
+	padding-left: none;
+	float:left;
+
+
+	}
+	
+#top a {
+	
+	background: #5B6F6F url('images/button.png') repeat-x bottom left;
+	color: #E9EDED;
+	padding: 0 20px;
+	display: block;
+	height:45px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+	line-height: 45px;
+	font-size: 12px;
+
+	
+	}	
+	
+	
+#add_page #page, #dashboard #dash, #settings #set {
+	
+	background: #E9EDED;
+	color: #0D0F0F;
+	
+	}	
+	
+.half select{width:40%; margin-right:10px;}	
+	
+#wrapper {
+	float:left;
+	width:850px;
+	padding: 15px 40px;
+	
+	}	
+
+
+ul.tabs , .box h3{
+	background: url("images/button.png") repeat-x scroll left bottom #5B6F6F;
+    float: left;
+    height: 32px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	-webkit-border-top-left-radius: 7px;
+-webkit-border-top-right-radius: 7px;
+-moz-border-radius-topleft: 7px;
+-moz-border-radius-topright: 7px;
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+overflow: hidden;
+border-bottom:none;
+color: white;
+font-size: 12px;
+line-height: 35px;
+
+}
+
+.box {
+	float:left;
+	width: 250px;
+	padding:20px;
+	margin-top:20px;
+	}
+	
+.box h3 { padding:0 20px;}	
+
+.box .content {
+	
+	padding:20px;
+	
+	}
+	
+.box .side {width:240px; padding:5px; height:150px;}	
+
+ul.tabs li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 -1px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+ul.tabs li a {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+	font-weight:bold;
+    outline: medium none;
+    padding: 0 20px;
+	line-height: 35px;
+    text-decoration: none;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a {
+    background: none repeat scroll 0 0 #fff;
+	color: #5B6F6F;
+		  -moz-box-shadow: 3px 3px 3px #323A3A;
+  -webkit-box-shadow: 3px 3px 3px #323A3A;
+  box-shadow: 3px 3px 3px #323A3A;
+}
+.tab_container , .box .content{
+	background: white;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 20px;
+    width: 100%;
+	border-top:none;
+			  -moz-box-shadow: 3px 3px 3px #ddds;
+  -webkit-box-shadow: 3px 3px 3px #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+}
+.tab_content {
+    font-size: 12px;
+    padding: 20px;
+	font-weight: bold;
+}
+.tab_content label {line-height: 120%; display:block; }
+
+.tab_content table {width: 100%; border-collapse: collapse;}
+.tab_content table  td{border: 1px solid #eee; padding:5px; font-weight:normal;}
+#tab3 table  td{border: none; padding:5px; font-weight:normal;}
+.tab_content table  .even{background: #fafafa;}
+.tab_content table  .head td {border:0; font-weight:bold;}
+
+.abutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:#f2f2f2;
+	background-color:#f2f2f2;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#5B6F6F;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 11px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.abutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.abutton:active {
+	position:relative;
+	top:1px;
+}
+#footer {float:left; color: #999; font-size: 11px;
+    padding: 0px 50px;
+    width: 800px;
+    text-shadow: 1px 1px  1px #fff;
+}
+#footer a{
+    font-size: 11px;
+    color: #999;
+    text-decoration:none;
+    font-weight:bold;
+}
+#cke_bottom_content ,#cke_top_content, #cke_contents_content{border:none;}

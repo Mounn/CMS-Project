@@ -1,0 +1,11 @@
+What's new in version 1.1
+========================
+Added image upload feature
+Added multi level menu support
+Added a better default template
+
+Fixed Bugs
+========================
+Admin Edit page unauthorized acces issue
+Admin Settings page unauthorized access issue
+Admin "Save changes" is adding unwanted changes
